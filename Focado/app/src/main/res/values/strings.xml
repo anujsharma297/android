@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Focado</string>
+
+    <string name="intro">“We enable teachers to cut time on auxiliary activities and boost up their classroom engagement.”</string>
+
+    <string name="desc">"Teachers are the real life superheroes. Classroom teaching is the backbone of Indian Education System today and it is hard to imagine ourselves growing without teachers. We are on a mission of revolutionizing the school education ecosystem to help schools increase their efficiency and boost the student-parent experience by making the best use of digital products and online solutions."</string>
 </resources>

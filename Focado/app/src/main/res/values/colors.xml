@@ -6,4 +6,6 @@
     <color name="colorBackground">#455A64</color>
     <color name="colorTeal">#35B88F</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="cardBackground">#21262D</color>
+    <color name="colorBlack">#000000</color>
 </resources>
