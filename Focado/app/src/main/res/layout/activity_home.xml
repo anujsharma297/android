@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/background_Image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imagebackground"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/contact_us"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/contact_us"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:onClick="contact"/>
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/focado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo_image"
+        android:text="F O C A D O"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="36dp"/>
+
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/capsule_button_shape"
+        android:layout_below="@+id/focado"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/know_more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/capsule_button_shape2"
+        android:layout_below="@+id/login_button"
+        android:text="Tap To Know More"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
